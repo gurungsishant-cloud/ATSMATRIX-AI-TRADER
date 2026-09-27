@@ -5,8 +5,8 @@
   "type": "module",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "node --watch --trace-warnings server.js",
-    "start": "node server.js",
+    "dev": "node --watch --trace-warnings src/server.js",
+    "start": "node src/server.js",
     "build": "node scripts/build.js",
     "test": "node --test 'test/**/*.test.js'",
     "lint": "node scripts/lint.js",
